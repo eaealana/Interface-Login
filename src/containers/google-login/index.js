@@ -42,9 +42,11 @@ const GoogleLogin = () => {
 
         <TextPassword>Password</TextPassword>
         <Inputs type="password" />
+
+        <ForgotPassword>Forgot password?</ForgotPassword>
+
       </ContainerInputs>
 
-      <ForgotPassword>Forgot password?</ForgotPassword>
 
       <Text>
         To continue, Google will share your name, address and email address and

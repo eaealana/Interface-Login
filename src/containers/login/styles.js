@@ -10,7 +10,6 @@ export const Container = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 80vw;
   margin: 2rem 0 1rem 0;
 `;
 

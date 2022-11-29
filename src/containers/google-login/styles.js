@@ -100,7 +100,7 @@ export const ForgotPassword = styled.p`
   color: #238ac2;
   cursor: pointer;
 
-  margin: 0 3.7rem;
+  margin: 0.7rem 0;
   align-self: flex-start;
 
   transition: all 0.7s;
@@ -116,10 +116,16 @@ export const ForgotPassword = styled.p`
 
 // text
 export const Text = styled.p`
-  margin: 1rem;
+  margin: 1rem auto;
+  width: 30rem;
   font: 500 0.8rem "Roboto", sans-serif;
   letter-spacing: 1px;
   color: #808080;
+
+  @media (min-width: 769px) {
+    width: 35rem;
+
+  }
 `;
 
 // button
